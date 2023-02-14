@@ -8,7 +8,7 @@ namespace Duplikat_2
 {
     internal class Login
     {
-        public static void login()
+        public static void login(int[] id, string[] firstName, string[] lastName, string[] userName, string[] password)
         {
             Console.WriteLine("==LOGIN==");
             Console.Write("USERNAME : ");
